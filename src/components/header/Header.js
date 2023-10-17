@@ -31,7 +31,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="flex w-full">
+            <div className="flex w-full xl:flex-col">
                 <div className="bg-green-500 text-white pl-32 pr-44 pt-12 flex flex-col gap-8 pb-4 sm:p-4">
                     <h1
                         className="text-4xl font-bold leading-snug"
@@ -56,10 +56,10 @@ export default function Header() {
                     className="w-full -scale-x-100 sm:hidden"
                     src={"/man.jpg"} width={500} height={500} alt="man" />
             </div>
-            <div className="flex items-center justify-center gap-8 mt-24 md:grid md:grid-cols-2 md:mt-8 place-items-center">
+            <div className="flex items-center justify-center gap-8 mt-24 md:grid md:grid-cols-2 md:mt-8 place-items-center xl:grid xl:grid-cols-4">
                 {
                     downloadLinks.map(link=>(
-                        <Image src={link.src} width={200} height={200}/>
+                        <Image src={link.src} width={200} height={200} alt="download link"/>
                     ))
                 }
             </div>
