@@ -1,4 +1,5 @@
 import Des from '@/components/des/Des'
+import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
 import LoginDes from '@/components/loginDes/LoginDes'
 import Navbar from '@/components/navbar/Navbar'
@@ -13,6 +14,7 @@ export default function Home() {
       <Needs />
       <Des />
       <LoginDes/>
+      <Footer/>
     </>
   )
 }
