@@ -67,7 +67,7 @@ export default function Needs() {
     return (
         <>
 
-            <div className="bg-gray-100 flex flex-col items-center justify-center pt-8 mt-12 w-full">
+            <div className="bg-gray-100 flex flex-col items-center justify-center pt-8 mt-12 w-full pb-12">
                 <h2 className="p-12 text-3xl font-bold">
                     یک اپلیکیشن برای تمام نیازها
                 </h2>
